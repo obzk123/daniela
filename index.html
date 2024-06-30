@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog de Danza</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section id="novedades" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Novedad 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Novedad 1</h5>
+                    <p>Descripciósn de la novedad 1.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Novedad 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Novedad 2</h5>
+                    <p>Descripción de la novedad 2.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Novedad 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Novedad 3</h5>
+                    <p>Descripción de la novedad 3.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#novedades" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#novedades" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </section>
+
+    <section id="grid" class="container mt-5">
+        <h2 class="text-center mb-4">Grilla</h2>
+        <div class="row">
+            <div class="col-md-4 grid-item">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Artículo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Artículo 1</h5>
+                        <p class="card-text">Descripción del artículo 1.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 grid-item">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Artículo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Artículo 2</h5>
+                        <p class="card-text">Descripción del artículo 2.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 grid-item">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Artículo 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Artículo 3</h5>
+                        <p class="card-text">Descripción del artículo 3.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script> $(function(){ $("#header").load("../models/header.html"); $("#footer").load("../models/footer.html"); }); </script>
+
+</body>
+</html>
