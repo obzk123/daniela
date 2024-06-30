@@ -1,0 +1,7 @@
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+.grid-item {
+    margin-bottom: 30px;
+}
